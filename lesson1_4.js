@@ -34,7 +34,6 @@ while (true) {
                 if (deleteNo === null || deleteNo === "") {
                     alert("キャンセル");
                 } else if (Number.isInteger(Number(deleteNo)) && 0 <= deleteNo && deleteNo < tasks.length) {
-                    alert("true");
                     tasks.splice(deleteNo, 1);
                     console.log("=============================");
                     console.log("現在持っているタスク一覧");
